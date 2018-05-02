@@ -1,0 +1,51 @@
+/*
+Theme Name: Troffo Theme
+Author: Dushyant Mainwal
+Version: 1.0
+*/
+
+.main-div {
+    padding: 8px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-div,
+.second-div {
+    display: flex;
+    flex: 1;
+    padding: 8px;
+    justify-content: center;
+    border: 2px solid white;
+    margin: 4px;
+    color: white;
+}
+
+.buttons-div {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#button_first,
+#button_second {
+    padding: 16px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    margin: 16px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16);
+    transition: 0.3s ease-in-out;
+}
+
+#button_first:hover,
+#button_second:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.24);
+    /*color: green;*/
+    /*background-color: white;*/
+}
