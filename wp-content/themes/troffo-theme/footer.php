@@ -1,7 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Dushyant Mainwal
- * Date: 03-May-18
- * Time: 12:19 PM
- */
+
+<?php wp_footer() ?>
+</body>
+</html>
