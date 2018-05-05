@@ -15,7 +15,6 @@
     <header class="site-header">
 
         <h2><a href="<?php echo home_url() ?>"><?php bloginfo('name') ?></a></h2>
-        <h5><?php bloginfo('description') ?></h5>
 
         <div style="float: right">
             <?php get_search_form(); ?>
