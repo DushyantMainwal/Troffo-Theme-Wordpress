@@ -4,6 +4,26 @@ Author: Dushyant Mainwal
 Version: 1.0
 */
 
+.nav_bar {
+    background-color: #303030;
+    display: flex;
+    margin: 4px 20px;
+    flex-direction: row;
+}
+
+.nav_icon {
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+}
+
+.nav_button {
+    border: 4px solid black;
+    justify-content: end;
+}
+
 .main-div {
     padding: 8px;
     background-color: dodgerblue;
